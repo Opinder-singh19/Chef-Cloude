@@ -6,6 +6,7 @@
 .logo {
   display: flex;
   margin: 0px;
+  
   height: 130px;
   align-items: center;
   justify-content: center;
@@ -35,6 +36,7 @@ h1{
 main{
   margin-top: 50px;
   margin-bottom: 140px;
+  background-image: url();
  
  
 }
