@@ -36,7 +36,10 @@ h1{
 main{
   margin-top: 50px;
   margin-bottom: 140px;
-  background-image: url();
+  background-image: url('../assets/background.jpg'); /* path relative to App.css */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
  
  
 }
