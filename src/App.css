@@ -71,7 +71,8 @@ body{
   border-right: 2px solid black; */
 
   height: auto;
-  background-image: url('src/assets/background.jpg'); 
+background-image: url('@/assets/background.jpg');
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
