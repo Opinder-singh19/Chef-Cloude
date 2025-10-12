@@ -36,10 +36,11 @@ h1{
 main{
   margin-top: 50px;
   margin-bottom: 140px;
-  background-image: url('../assets/background.jpg'); /* path relative to App.css */
+  /*background-image: url('src/assets/background.jpg');  path relative to App.css 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 100vh;*/
  
  
 }
@@ -64,12 +65,20 @@ img{
     width: 120px;
 }
 body{
-  border-left: 2px solid black;
+  /* border-left: 2px solid black; */
   margin-left: 2px;
-  border-top: 2px solid black;
-  border-right: 2px solid black;
+  /* border-top: 2px solid black;
+  border-right: 2px solid black; */
 
   height: auto;
+  background-image: url('src/assets/background.jpg'); /* path relative to App.css */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+  margin-top: 100px;
+ 
  
   padding-bottom: 120px;
 }
@@ -167,22 +176,23 @@ section{
   background-color: #f2f2f2;  
   padding: 15px 20px;
   text-align: center;
-  height: 100px;
+  height: 80px;
   font-size: 14px;
   color: #333;
   border-top: 1px solid #ccc;
-  position: fixed;       
-  bottom: 0;             
+  position: absolute;    
+  bottom: 0px;             
   width: 100%;           
   box-sizing: border-box;
   box-shadow:2px 2px 5px rgb(55, 53, 53) ;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .intro{
-  margin-top:130px;
+  margin-top:180px;
   display: flex;
   flex-direction: column;
   justify-content: center;    
