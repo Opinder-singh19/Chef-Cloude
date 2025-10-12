@@ -71,7 +71,7 @@ body{
   border-right: 2px solid black; */
 
   height: auto;
-  background-image: url('src/assets/background.jpg'); /* path relative to App.css */
+  background-image: url('src/assets/background.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
